@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-md bg-success navbar-dark">
     <div class="container xxl">
       <a href="index.html" class="navbar-brand">
-        <span class="fw-bold text-secondary text-light">Michael Paglione</span>
+        <span class="fw-light text-secondary text-light">Michael Paglione</span>
       </a>
       <!-- toggle button-->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
@@ -27,15 +27,18 @@
 
       <!--navbar links-->
       <div class="collapse navbar-collapse justify-content-end align-center bg-success" id="main-nav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mx-lg-5 px-lg-5">
           <li class="nav-item">
-            <a href="#about" class="nav-link text-light">About</a>
+            <a href="#about" class="nav-link fw-light text-light">About</a>
           </li>
           <li class="nav-item">
-            <a href="#blog" class="nav-link text-light">Blog</a>
+            <a href="#blog" class="nav-link fw-light text-light">Blog</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link text-light">Contact</a>
+            <a href="#contact" class="nav-link fw-light text-light">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#footer" class="nav-link fw-light text-light">Social</a>
           </li>
         </ul>
       </div>
@@ -72,11 +75,12 @@
           <p class="lead fw-light">
             After years of retail and getting burned out, I decided that it was time for a change.
             As a trained musician, I found that there are a lot of paralells between learning an instrument
-            and learning how to code. I am currently attending Rithm School to hone my skills in full-stack web
-            development.
+            and learning how to code. I am currently attending
+            <a href="http://www.rithmschool.com" class ="lead fw-light text-success" target="blank">Rithm School</a>
+            to hone my skills in full-stack web development.
           </p>
           <hr>
-          <a class="btn btn-success btn-sm" href="assets/paglione_resume.pdf" download role="button">Check out my resume</a>
+          <a class="btn btn-success btn-sm" href="assets/paglione_resume.pdf" download role="button">Download my resume</a>
         </div>
       </div>
     </div>
@@ -96,12 +100,11 @@
           <hr>
           <a class="btn btn-success btn-sm" href="#" target="blank role=" button">Check out my Blog</a>
         </div>
-        <div class="col-md-5 text-center text-lg-end mt-2 pt-2">
+        <div class= "col-md-5 text-center text-lg-end mt-2 pt-2">
           <h2>
             <div class="display-6">Sometimes I write about the things I'm learning</div>
           </h2>
         </div>
-
       </div>
     </div>
   </section>
@@ -113,23 +116,22 @@
         <span class="display-6">
           Drop me a line<i class="bi bi-pencil-fill mx-3"></i>
         </span>
-        <hr>
         <p class="lead">I would love to hear from you! Fill out the form to contact me directly...</p>
       </div>
       <div class="row justify-content-center my-5">
         <div class="col-lg-6">
           <form>
             <!--EMAIL-->
-            <label for="email" class="form-label">Email address:</label>
+            <label for="email" class="form-label lead">Email address:</label>
             <div class="mb-4 input-group">
               <span class="input-group-text">
                 <i class="bi bi-envelope-fill"></i>
               </span>
-              <input type="email" class="form-control" id="email" placeholder="e.g. john.smith@domain.com">
+              <input type="email" class="form-control lead" id="email" placeholder="e.g. john.smith@domain.com">
             </div>
 
             <!--NAME-->
-            <label for="name" class="form-label">Name:</label>
+            <label for="name" class="form-label lead">Name:</label>
             <div class="mb-4 input-group">
               <span class="input-group-text">
                 <i class="bi bi-person-fill"></i>
@@ -139,7 +141,7 @@
 
 
             <!--BOX-->
-            <label for="subject" class="form-label">What is your question about?</label>
+            <label for="subject" class="form-label lead">What is your question about?</label>
             <div class="mb-4 input-group">
               <span class="input-group-text">
                 <i class="bi bi-chat-dots-fill"></i>
@@ -153,7 +155,7 @@
             </div>
             <div class="form-floating mb-4 mt 5">
               <textarea id="query" class="form-control" style="height: 120px"></textarea>
-              <label for="query">Questions? Comments? Concerns?</label>
+              <label for="query" class="lead fw-light">Questions? Comments? Concerns?</label>
             </div>
             <div class="mb-4 mt-5 text-center">
               <button type="submit" class="btn btn-success">Submit</button>
@@ -165,13 +167,13 @@
     </div>
   </section>
   <!-- FOOTER -->
-  <footer class="footer mt-auto py-3 bg-light">
+  <footer class="footer mt-auto py-3 bg-light" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 text-start">
-          <span class="fw-light">&copy; Michael Paglione 2021</span>
+        <div class="col-lg-6 text-start mt-2 text-sm-center">
+          <span class="fw-light lead">Copyright &copy; 2021 Michael Paglione</span>
         </div>
-        <div class="col-lg-6 btn-group-sm text-end">
+        <div class="col-lg-6 btn-group-sm text-end text-sm-center pt-sm-2">
           <a href="https://www.linkedin.com/in/michael-paglione" target="blank" class="btn btn-success bi bi-linkedin m-2"></a>
           <a href="#" target="blank" class="btn btn-success bi bi-twitter m-2"></a>
           <a href="https://www.facebook.com/profile.php?id=9030324" target="blank" class="btn btn-success bi bi-facebook m-2"></a>
